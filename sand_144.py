@@ -96,7 +96,7 @@ class MyNeuralNetworkClassifier:
         with torch.no_grad():
             correct = 0.0
             total = 0.0
-#                 for x, y in enumerate(loader): SAYAN
+#                 for x, y in enumerate(loader): TEAM# 144
             for x, y in loader:
 #                 print("Here is type & shape", type(y), y.shape)
                 b_size = y.shape[0]
